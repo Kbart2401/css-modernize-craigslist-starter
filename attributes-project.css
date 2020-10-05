@@ -3,98 +3,104 @@
 .homepage .leftlinks #cl_app_beta,
 .no-js,
 p.more {
-  display: none;
+    display: none;
 }
 
 #logo {
-  font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 
 .homepage-search .querybox {
-  border-top: 0;
-  border-right: 0;
-  border-left: 0;
-  border-bottom: 2px solid #464646;
-  font-size: 16px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 2px solid #464646;
+    font-size: 16px;
 }
 
 .menu.collapsible > li {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .menu.collapsible > li.expand.s ul {
-  display: block;
+    display: block;
 }
 
 .menu.collapsible > li ul {
-  display: none;
+    display: none;
 }
 
 /* Write your CSS here. */
-* {    
-  font-family: "Helvetica Neue", "Helvetica", sans-serif;    
-  background-color: whitesmoke;    
-  color: #464646;
+* {
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    background-color: whitesmoke;
+    color: #464646;
 }
 
-  a {    
+a {
     text-decoration: none;
-  }
+}
 
-  ul {    
+ul {
     padding: 0em;
-  }
+}
 
-  ul > li {    
+ul > li {
     list-style: none;
-  }
+}
 
-  link:hover {
+a:hover {
     color: #800080;
     font-weight: bold;
-  }
-
- .page-container {
-   max-width: 1200px;
- }
-
- #leftbar, #center, #rightbar {
-   float: left;
-   padding: 0, 30, 0, 30;
-   box-sizing: border-box;
- }
-
-footer {
-  clear: both;
 }
 
-#leftbar, #rightbar {
-  width: 25%;
+.page-container {
+    max-width: 1200px;
+}
+
+#leftbar,
+#center,
+#rightbar {
+    float: left;
+    padding: 0, 30, 0, 30;
+    box-sizing: border-box;
+}
+
+footer {
+    clear: both;
+}
+
+#leftbar,
+#rightbar {
+    width: 25%;
 }
 
 #center {
-  width: 50%;
-  border: 1px #464646;
-  border-radius: 10px;
+    width: 50%;
+    border: 1px #464646;
+    border-radius: 10px;
 }
 
 #center > div {
-  float: left;
-  width: 33%;
+    float: left;
+    width: 33%;
 }
 
 #topban h2 {
-  text-align: center;
+    text-align: center;
 }
 
-ul+.clfooter {
-  text-align: center;
-  border-top: 1px solid grey;
-  padding: 10px, 0px, 10px, 0px;
+ul + .clfooter {
+    text-align: center;
+    border-top: 1px solid grey;
+    padding: 10px, 0px, 10px, 0px;
 }
 
 .clfooter > li {
-  display: inline;
-  padding-right: 5px;
+    display: inline;
+    padding-right: 5px;
 }
 
+h4.ban::before {
+    content:"☮️";
+}
