@@ -31,3 +31,70 @@ p.more {
 }
 
 /* Write your CSS here. */
+* {    
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;    
+  background-color: whitesmoke;    
+  color: #464646;
+}
+
+  a {    
+    text-decoration: none;
+  }
+
+  ul {    
+    padding: 0em;
+  }
+
+  ul > li {    
+    list-style: none;
+  }
+
+  link:hover {
+    color: #800080;
+    font-weight: bold;
+  }
+
+ .page-container {
+   max-width: 1200px;
+ }
+
+ #leftbar, #center, #rightbar {
+   float: left;
+   padding: 0, 30, 0, 30;
+   box-sizing: border-box;
+ }
+
+footer {
+  clear: both;
+}
+
+#leftbar, #rightbar {
+  width: 25%;
+}
+
+#center {
+  width: 50%;
+  border: 1px #464646;
+  border-radius: 10px;
+}
+
+#center > div {
+  float: left;
+  width: 33%;
+}
+
+#topban h2 {
+  text-align: center;
+}
+
+ul+.clfooter {
+  text-align: center;
+  border-top: 1px solid grey;
+  padding: 10px, 0px, 10px, 0px;
+}
+
+.clfooter > li {
+  display: inline;
+  padding-right: 5px;
+}
+
